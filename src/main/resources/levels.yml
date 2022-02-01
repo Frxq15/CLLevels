@@ -1,0 +1,320 @@
+#DEFAULT STARTING LEVEL IS 0
+MAX_LEVEL: 30
+
+XP_REQUIRED: #xp required for each level
+  1: 25
+  2: 26
+  3: 27
+  4: 28
+  5: 29
+  6: 30
+  7: 31
+  8: 32
+  9: 33
+  10: 34
+  11: 35
+  12: 36
+  13: 37
+  14: 38
+  15: 39
+  16: 40
+  17: 41
+  18: 42
+  19: 43
+  20: 44
+  21: 45
+  22: 46
+  23: 47
+  24: 48
+  25: 49
+  26: 50
+  27: 51
+  28: 52
+  29: 53
+  30: 100
+
+XP_MANAGER:
+  #should we play an xp sound effect when xp is earned?
+  SOUND_EFFECT: true
+  #amount of xp earned from killing players
+  PLAYERS: 3
+  #to prevent farming, if a player kills the same player within X amount of time they will not receive xp
+  PLAYERS_COOLDOWN: 5 #time in minutes
+  BLOCKS: #xp earned from mining these blocks, please use the official material names : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    DIRT: 5
+    DIAMOND_ORE: 2
+  MOBS: #xp earned from killing mobs, please use the official entity names : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+    ZOMBIE: 3
+    SKELETON: 5
+
+ON_LEVELUP:
+  1:
+    MESSAGE: #message sent to player upon levelup
+      - ""
+      - "&7You completed the first level successfully."
+      - "&b%xpneeded% XP &7is required for level 2."
+      - ""
+    COMMANDS: #Executed from console use the %player% placeholder
+      - "msg %player% well done lol"
+    FIREWORKS: true #should we play fireworks upon levelup
+  2:
+    MESSAGE:
+      - ""
+      - "&7You reached level 2."
+      - "&b%xpneeded% XP &7is required for level 3."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  3:
+    MESSAGE:
+      - ""
+      - "&7You reached level 3."
+      - "&b%xpneeded% XP &7is required for level 4."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  4:
+    MESSAGE:
+      - ""
+      - "&7You reached level 4."
+      - "&b%xpneeded% XP &7is required for level 5."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  5:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  6:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  7:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  8:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  9:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  10:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  11:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  12:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  13:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  14:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  15:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  16:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  17:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  18:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  19:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  20:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  21:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  22:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  23:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  24:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  25:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  26:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  27:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  28:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  29:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true
+  30:
+    MESSAGE:
+      - ""
+      - "&7You leveled up."
+      - "&b%xpneeded% XP &7is required for the next level."
+      - ""
+    COMMANDS:
+      - "msg %player% well done lol"
+    FIREWORKS: true

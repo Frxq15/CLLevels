@@ -1,0 +1,15 @@
+name: CLLevels
+version: ${project.version}
+main: me.frxq15.cllevels.CLLevels
+api-version: 1.18
+authors: [Frxq15]
+commands:
+  level:
+    description: level command
+    usage: /level <player>
+  xp:
+    description: xp command
+    usage: /xp <player>
+  givexp:
+    description: givexp command
+    usage: /givexp <player> <amount>

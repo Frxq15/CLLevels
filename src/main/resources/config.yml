@@ -1,0 +1,24 @@
+DATABASE:
+  TABLE: cllevels
+  HOST: "HOST"
+  PORT: 3306
+  DATABASE: "database"
+  USERNAME: "username"
+  PASSWORD: "password"
+
+NO_PERMISSION: "&cYou dont have permission to perform this command."
+PLAYER_NOT_FOUND: "&7The player you specified could not be found."
+INVALID_INTEGER: "&7The number you specified is invalid."
+XP_GIVEN: "&7You gave &b%amount% XP &7to &b%target%&7."
+CURRENT_LEVEL:
+  - ""
+  - "&b&lLevel Information &7for &b%player%:"
+  - "&b&l* &7Current Level: &b%current%"
+  - "&b&l* &7XP Required: &b%xp%"
+  - ""
+CURRENT_XP:
+  - ""
+  - "&b&lXP Information &7for &b%player%:"
+  - "&b&l* &7Current XP: &b%current%"
+  - "&b&l* &7XP Required: &b%needed%"
+  - ""
